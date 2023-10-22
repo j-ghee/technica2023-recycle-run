@@ -432,7 +432,7 @@ function gameSetUp () {
     game.showLongText("The name's Jordan. I'll be your guide!", DialogLayout.Center)
     game.showLongText("We all know that we should recycle...", DialogLayout.Center)
     game.showLongText("but it's hard to what should go in which bin.", DialogLayout.Center)
-    game.showLongText("Especially plastics, only 9% is recycled as of 2023.", DialogLayout.Center)
+    game.showLongText("Especially plastic, only 9% is recycled as of 2023.", DialogLayout.Center)
     game.showLongText("Today, you goal is to collect ONLY what can be recycled in a bin!", DialogLayout.Center)
     game.showLongText("I will take the rest to a specialized recycling center...", DialogLayout.Center)
     game.showLongText("or simply throw them away!", DialogLayout.Center)
