@@ -131,9 +131,11 @@ info.onCountdownEnd(function () {
     if (info.score() >= 10) {
         game.showLongText("You know your stuff, great job! Go to epa.gov to learn more.", DialogLayout.Center)
         game.gameOver(true)
+        music.stopAllSounds()
     } else {
         game.showLongText("It's alright, try again! You can do it!", DialogLayout.Center)
         game.gameOver(false)
+        music.stopAllSounds()
     }
 })
 function changeTitleScreen (myImage: Image) {
